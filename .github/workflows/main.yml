@@ -1,10 +1,12 @@
 name: Generate Snake Animation
 
 on:
+  # Roda a cada 24 horas
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
+  # Permite que você rode manualmente pela aba Actions
   workflow_dispatch:
-  
+
 permissions:
   contents: write
 
@@ -12,12 +14,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@v2
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
         with:
-          github_user_name: Kesiasouza
-          outputs: dist/snake.svg
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+          # Alteração crucial aqui!
+          github_user_name: kesia-souza
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
