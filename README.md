@@ -3,8 +3,7 @@
 
 
 
-
-![Snake Animation](https://raw.githubusercontent.com/kesiasouza/kesiasouza/output/snake.svg)
+![Snake Animation](https://raw.githubusercontent.com/kesia-souza/kesia-souza/output/snake.svg)
 
 
 
