@@ -3,7 +3,30 @@
 
 
 
-![Snake Animation](https://raw.githubusercontent.com/kesia-souza/kesia-souza/output/snake.svg)
+🎓 **Formação:** Tecnóloga em Análise e Desenvolvimento de Sistemas | UniRuy Wyden.
+
+🚀 **Atualmente:** Residente de Software Embarcado no programa **EmbarcaTech**.
+
+🎯 **Foco de Estudo:** Linguagem C, microcontroladores e desenvolvimento de baixo nível.
+
+🌱 **Objetivo:** Estou em constante evolução, buscando transformar conhecimento em soluções robustas e eficientes para o mundo real.
+
+📫 Sinta-se à vontade para se conectar e acompanhar meus projetos!
+
+
+
+
+---
+### 📊 Minhas Estatísticas no GitHub
+
+![Estatísticas do GitHub de Kesia](https://github-readme-stats.vercel.app/api?username=kesiasouza&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![Linguagens Mais Usadas por Kesia](https://github-readme-stats.vercel.app/api/top-langs/?username=kesiasouza&layout=compact&theme=radical&hide_border=true)
+
+---
+
+
+
+![Snake Animation](https://raw.githubusercontent.com/kesiasouza/kesiasouza/output/snake.svg)
 
 
 
