@@ -21,7 +21,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           # Alteração crucial aqui!
-          github_user_name: kesia-souza
+          github_user_name: kesiasouza
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
